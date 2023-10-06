@@ -7,4 +7,67 @@ body {
   /* font-family: 'Bellota', cursive;
   font-family: 'Josefin Slab', serif; */
   font-family: "Judson", serif;
+  height: 100vh;
+}
+
+.container {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+.container nav .up .logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.682);
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.61);
+}
+nav .up {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container nav .up select {
+  border: 2px
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  padding: 0.6rem 1rem;
+  font-family: "Bellota", cursive;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 11rem;
+  
+}
+.container nav .up .search {
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 0.3rem 0.3rem;
+  width: 19rem;
+}
+.container nav .up .search #searchbar {
+  background-color: #d9d9d9;
+  border: none;
+  /* border-radius: 50px; */
+  outline: none;
+}
+.container nav .up .search .magnifier {
+  border: none;
+  outline: none;
+  background-color: #d9d9d9;
+}
+.container nav .up{
+  text-align: right;
+}
+
+.container nav .up .tel h3{
+font-weight: 900;
+}
+.container nav .up .tel p{
+font-size: 1rem;
 }
